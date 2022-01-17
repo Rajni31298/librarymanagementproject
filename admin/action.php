@@ -17,6 +17,7 @@ if(isset($_POST["action"]))
 		$result = $connect->query($query);
 
 		$data = array();
+		
 
 		foreach($result as $row)
 		{
